@@ -9,8 +9,8 @@
 
 ## How to Run
 
-import lsappnew.sql in the rootfolder to postgress database.
-npm install
-composer install
-php artisan serve
-http://127.0.0.1:8000
+# import lsappnew.sql in the root folder to postgress database.
+# npm install
+# composer install
+# php artisan serve
+# http://127.0.0.1:8000
