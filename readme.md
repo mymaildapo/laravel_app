@@ -9,8 +9,22 @@
 
 ## How to Run
 
-# import lsappnew.sql in the root folder to postgress database.
-#npm install
+# import lsappnew.sql located in root folder to postgress database.
+
+# or
+# using tools like pgadmin4 create a new postgres database 
+
+# create .env in the root folder (check and use .env.example)
+
+ # npm install
 # composer install
+
+# link the image folder
+# php artisan storage:link
+
+# send data to the database, run command
+# php artisan migrate
+# php artisan db:seed 
+
 # php artisan serve
-# http://127.0.0.1:8000
+# go to http://127.0.0.1:8000
